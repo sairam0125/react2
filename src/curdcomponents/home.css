@@ -47,4 +47,5 @@ table , th , td{
 }
 .delete{
     background-color: crimson;
+    text-decoration: underline;
 }

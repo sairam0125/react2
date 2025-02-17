@@ -1,0 +1,13 @@
+redux library:-
+***************
+-redux is a javascript library used for state management in javascript applications such as
+-redux is more supportive in react js,because redux is also having unidirectional data flow
+-redux is third party library we need to install in the react applicaiton.
+    -npm install redux.
+    -npm install react-redux.
+
+cake shop:cakes,biscuit,icecreams,chocolates
+        -shop keeper 
+            reducer functions
+        
+        

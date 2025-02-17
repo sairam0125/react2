@@ -13,14 +13,14 @@ const Create = () => {
     let handleSubmit =e=>{
         e.preventDefault();
         let payload = {name , email , phone};
-        // console.log(payload);
+        console.log(payload);
         axios.post("http://localhost:8000/users" , payload)
         .then(res=>{
-            // console.log("submitted successfully");
+            console.log("submitted successfully");
             toast.success("user created successfully")
             navigate("/")
         }).catch(err=>{
-            // console.log(err)
+            console.log(err)
             toast.error("User not created")
         })
     }
@@ -60,4 +60,5 @@ const Create = () => {
   )
 }
 
-export default Create
+export default Create;
+

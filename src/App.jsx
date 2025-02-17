@@ -27,7 +27,7 @@
 // }
 // export default App;
 
-// ! CRUD operation
+// ! CRUD operations
 import React from 'react'
 import {BrowserRouter , Routes , Route} from "react-router-dom"
 import Home from './curdcomponents/Home'
@@ -47,3 +47,7 @@ const App = () => {
   )
 }
 export default App
+
+//json-sever --watch users.json --port=8000 to run the server
+//npm install -g json-server to install json server
+
